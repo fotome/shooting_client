@@ -52,9 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\bullet.cs" />
+     <Compile Include="Assets\Fighter_cs.cs" />
      <Compile Include="Assets\generator.cs" />
      <Compile Include="Assets\rock.cs" />
-     <Compile Include="Assets\rocket.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/gen.han/shooting_client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
