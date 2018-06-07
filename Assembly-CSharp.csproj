@@ -51,10 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\blt.cs" />
      <Compile Include="Assets\bullet.cs" />
-     <Compile Include="Assets\Fighter_cs.cs" />
+     <Compile Include="Assets\distory.cs" />
+     <Compile Include="Assets\enemy01.cs" />
+     <Compile Include="Assets\Fighter.cs" />
      <Compile Include="Assets\generator.cs" />
-     <Compile Include="Assets\rock.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/gen.han/shooting_client/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

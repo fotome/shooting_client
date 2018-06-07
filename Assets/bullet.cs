@@ -16,9 +16,11 @@ public class bullet : MonoBehaviour {
 	}
     
     void OnTriggerEnter2D (Collider2D coll) {
-        // 爆発エフェクトを生成する
-        Instantiate (explosionPrefab, transform.position, Quaternion.identity);
-        Destroy (gameObject);
-        Destroy (coll.gameObject);
+        if (coll.gameObject.name == "enemy02(Clone)") {
+            // 爆発エフェクトを生成する
+            Instantiate (explosionPrefab, transform.position, Quaternion.identity);
+            Destroy (gameObject);
+            Destroy (coll.gameObject);
+        }
     }
 }
