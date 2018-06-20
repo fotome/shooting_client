@@ -130,7 +130,7 @@ class WheelJoint2D;
 class RelativeJoint2D; 
 class TargetJoint2D; 
 class LensFlare; 
-class Light; 
+class Light; template <> void RegisterClass<Light>(const char*);
 class LightProbeGroup; 
 class LightProbeProxyVolume; 
 class MonoBehaviour; template <> void RegisterClass<MonoBehaviour>(const char*);
@@ -289,7 +289,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 64 non stripped classes
+	//Total: 65 non stripped classes
 	//0. Behaviour
 	RegisterClass<Behaviour>("Core");
 	//1. Unity::Component
@@ -412,11 +412,13 @@ RegisterBuiltinTypes();
 	RegisterClass<BoxCollider2D>("Physics2D");
 	//60. EdgeCollider2D
 	RegisterClass<EdgeCollider2D>("Physics2D");
-	//61. ParticleSystemRenderer
+	//61. Light
+	RegisterClass<Light>("Core");
+	//62. ParticleSystemRenderer
 	RegisterClass<ParticleSystemRenderer>("ParticleSystem");
-	//62. AudioBehaviour
+	//63. AudioBehaviour
 	RegisterClass<AudioBehaviour>("Audio");
-	//63. AudioListener
+	//64. AudioListener
 	RegisterClass<AudioListener>("Audio");
 
 }

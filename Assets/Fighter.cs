@@ -5,9 +5,10 @@ using UnityEngine;
 public class Fighter : MonoBehaviour {
     public GameObject bulletPrefab;
     private float timeleft;
+    private float sp;
 	// Use this for initialization
 	void Start () {
-		
+        sp = 0.0f;
 	}
 	
 	// Update is called once per frame
@@ -21,8 +22,17 @@ public class Fighter : MonoBehaviour {
             float sensitivity = 0.2f; // いわゆる感度
             float move_x = System.Math.Sign(x) * sensitivity;
             float move_y = System.Math.Sign(y) * sensitivity;
+            if (System.Math.Sign(x) < 0 && sp < 45.0f ) {
+                transform.Rotate(0, 9.0f, 0);
+                sp = sp + 9.0f;
+            } else if (System.Math.Sign(x) > 0 && sp > -45.0f) {
+                transform.Rotate(0, -9.0f, 0);
+                sp = sp - 9.0f;
+            }
+            
+            Debug.Log(sp);
         
-            transform.Translate(move_x, move_y, 0);
+            transform.Translate(move_x, move_y, 0, Space.World);
         }
     
         timeleft -= Time.deltaTime;

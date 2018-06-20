@@ -66,6 +66,7 @@ extern String_t* _stringLiteral760903947;
 extern const uint32_t enemy01_Start_m765698321_MetadataUsageId;
 extern const uint32_t enemy01_Update_m4171172846_MetadataUsageId;
 extern RuntimeClass* Input_t1431474628_il2cpp_TypeInfo_var;
+extern RuntimeClass* Single_t1397266774_il2cpp_TypeInfo_var;
 extern const uint32_t Fighter_Update_m2300369161_MetadataUsageId;
 extern String_t* _stringLiteral2289949373;
 extern const uint32_t generator_Start_m2563546928_MetadataUsageId;
@@ -416,63 +417,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VECTOR2_T2156229523_H
-#ifndef BOOLEAN_T97287965_H
-#define BOOLEAN_T97287965_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Boolean
-struct  Boolean_t97287965 
-{
-public:
-	// System.Boolean System.Boolean::m_value
-	bool ___m_value_2;
-
-public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t97287965, ___m_value_2)); }
-	inline bool get_m_value_2() const { return ___m_value_2; }
-	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(bool value)
-	{
-		___m_value_2 = value;
-	}
-};
-
-struct Boolean_t97287965_StaticFields
-{
-public:
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_0;
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_1;
-
-public:
-	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___FalseString_0)); }
-	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
-	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
-	inline void set_FalseString_0(String_t* value)
-	{
-		___FalseString_0 = value;
-		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
-	}
-
-	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___TrueString_1)); }
-	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
-	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
-	inline void set_TrueString_1(String_t* value)
-	{
-		___TrueString_1 = value;
-		Il2CppCodeGenWriteBarrier((&___TrueString_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BOOLEAN_T97287965_H
 #ifndef QUATERNION_T2301928331_H
 #define QUATERNION_T2301928331_H
 #ifdef __clang__
@@ -548,6 +492,63 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // QUATERNION_T2301928331_H
+#ifndef BOOLEAN_T97287965_H
+#define BOOLEAN_T97287965_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Boolean
+struct  Boolean_t97287965 
+{
+public:
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t97287965, ___m_value_2)); }
+	inline bool get_m_value_2() const { return ___m_value_2; }
+	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(bool value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+struct Boolean_t97287965_StaticFields
+{
+public:
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_0;
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_1;
+
+public:
+	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___FalseString_0)); }
+	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
+	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
+	inline void set_FalseString_0(String_t* value)
+	{
+		___FalseString_0 = value;
+		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
+	}
+
+	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t97287965_StaticFields, ___TrueString_1)); }
+	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
+	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
+	inline void set_TrueString_1(String_t* value)
+	{
+		___TrueString_1 = value;
+		Il2CppCodeGenWriteBarrier((&___TrueString_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BOOLEAN_T97287965_H
 #ifndef ENUM_T4135868527_H
 #define ENUM_T4135868527_H
 #ifdef __clang__
@@ -826,23 +827,23 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TOUCHPHASE_T72348083_H
-#ifndef TOUCHTYPE_T2034578258_H
-#define TOUCHTYPE_T2034578258_H
+#ifndef SPACE_T654135784_H
+#define SPACE_T654135784_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.TouchType
-struct  TouchType_t2034578258 
+// UnityEngine.Space
+struct  Space_t654135784 
 {
 public:
-	// System.Int32 UnityEngine.TouchType::value__
+	// System.Int32 UnityEngine.Space::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(TouchType_t2034578258, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Space_t654135784, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -854,7 +855,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TOUCHTYPE_T2034578258_H
+#endif // SPACE_T654135784_H
 #ifndef OBJECT_T631007953_H
 #define OBJECT_T631007953_H
 #ifdef __clang__
@@ -910,6 +911,35 @@ struct Object_t631007953_marshaled_com
 	intptr_t ___m_CachedPtr_0;
 };
 #endif // OBJECT_T631007953_H
+#ifndef TOUCHTYPE_T2034578258_H
+#define TOUCHTYPE_T2034578258_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.TouchType
+struct  TouchType_t2034578258 
+{
+public:
+	// System.Int32 UnityEngine.TouchType::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(TouchType_t2034578258, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TOUCHTYPE_T2034578258_H
 #ifndef TOUCH_T1921856868_H
 #define TOUCH_T1921856868_H
 #ifdef __clang__
@@ -1069,26 +1099,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TOUCH_T1921856868_H
-#ifndef GAMEOBJECT_T1113636619_H
-#define GAMEOBJECT_T1113636619_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.GameObject
-struct  GameObject_t1113636619  : public Object_t631007953
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GAMEOBJECT_T1113636619_H
 #ifndef COMPONENT_T1923634451_H
 #define COMPONENT_T1923634451_H
 #ifdef __clang__
@@ -1109,6 +1119,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COMPONENT_T1923634451_H
+#ifndef GAMEOBJECT_T1113636619_H
+#define GAMEOBJECT_T1113636619_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.GameObject
+struct  GameObject_t1113636619  : public Object_t631007953
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GAMEOBJECT_T1113636619_H
 #ifndef TRANSFORM_T3600365921_H
 #define TRANSFORM_T3600365921_H
 #ifdef __clang__
@@ -1189,6 +1219,56 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COLLIDER2D_T2806799626_H
+#ifndef FIGHTER_T1911001889_H
+#define FIGHTER_T1911001889_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Fighter
+struct  Fighter_t1911001889  : public MonoBehaviour_t3962482529
+{
+public:
+	// UnityEngine.GameObject Fighter::bulletPrefab
+	GameObject_t1113636619 * ___bulletPrefab_2;
+	// System.Single Fighter::timeleft
+	float ___timeleft_3;
+	// System.Single Fighter::sp
+	float ___sp_4;
+
+public:
+	inline static int32_t get_offset_of_bulletPrefab_2() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___bulletPrefab_2)); }
+	inline GameObject_t1113636619 * get_bulletPrefab_2() const { return ___bulletPrefab_2; }
+	inline GameObject_t1113636619 ** get_address_of_bulletPrefab_2() { return &___bulletPrefab_2; }
+	inline void set_bulletPrefab_2(GameObject_t1113636619 * value)
+	{
+		___bulletPrefab_2 = value;
+		Il2CppCodeGenWriteBarrier((&___bulletPrefab_2), value);
+	}
+
+	inline static int32_t get_offset_of_timeleft_3() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___timeleft_3)); }
+	inline float get_timeleft_3() const { return ___timeleft_3; }
+	inline float* get_address_of_timeleft_3() { return &___timeleft_3; }
+	inline void set_timeleft_3(float value)
+	{
+		___timeleft_3 = value;
+	}
+
+	inline static int32_t get_offset_of_sp_4() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___sp_4)); }
+	inline float get_sp_4() const { return ___sp_4; }
+	inline float* get_address_of_sp_4() { return &___sp_4; }
+	inline void set_sp_4(float value)
+	{
+		___sp_4 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // FIGHTER_T1911001889_H
 #ifndef DISTORY_T2089667295_H
 #define DISTORY_T2089667295_H
 #ifdef __clang__
@@ -1400,46 +1480,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENEMY01_T1811499032_H
-#ifndef FIGHTER_T1911001889_H
-#define FIGHTER_T1911001889_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Fighter
-struct  Fighter_t1911001889  : public MonoBehaviour_t3962482529
-{
-public:
-	// UnityEngine.GameObject Fighter::bulletPrefab
-	GameObject_t1113636619 * ___bulletPrefab_2;
-	// System.Single Fighter::timeleft
-	float ___timeleft_3;
-
-public:
-	inline static int32_t get_offset_of_bulletPrefab_2() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___bulletPrefab_2)); }
-	inline GameObject_t1113636619 * get_bulletPrefab_2() const { return ___bulletPrefab_2; }
-	inline GameObject_t1113636619 ** get_address_of_bulletPrefab_2() { return &___bulletPrefab_2; }
-	inline void set_bulletPrefab_2(GameObject_t1113636619 * value)
-	{
-		___bulletPrefab_2 = value;
-		Il2CppCodeGenWriteBarrier((&___bulletPrefab_2), value);
-	}
-
-	inline static int32_t get_offset_of_timeleft_3() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___timeleft_3)); }
-	inline float get_timeleft_3() const { return ___timeleft_3; }
-	inline float* get_address_of_timeleft_3() { return &___timeleft_3; }
-	inline void set_timeleft_3(float value)
-	{
-		___timeleft_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // FIGHTER_T1911001889_H
 
 
 // !!0 UnityEngine.Object::Instantiate<System.Object>(!!0,UnityEngine.Vector3,UnityEngine.Quaternion)
@@ -1479,6 +1519,10 @@ extern "C"  Touch_t1921856868  Input_GetTouch_m2192712756 (RuntimeObject * __thi
 extern "C"  Vector2_t2156229523  Touch_get_deltaPosition_m2389653382 (Touch_t1921856868 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Math::Sign(System.Single)
 extern "C"  int32_t Math_Sign_m1545180090 (RuntimeObject * __this /* static, unused */, float p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::Rotate(System.Single,System.Single,System.Single)
+extern "C"  void Transform_Rotate_m3172098886 (Transform_t3600365921 * __this, float p0, float p1, float p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::Translate(System.Single,System.Single,System.Single,UnityEngine.Space)
+extern "C"  void Transform_Translate_m2198936091 (Transform_t3600365921 * __this, float p0, float p1, float p2, int32_t p3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::InvokeRepeating(System.String,System.Single,System.Single)
 extern "C"  void MonoBehaviour_InvokeRepeating_m650519629 (MonoBehaviour_t3962482529 * __this, String_t* p0, float p1, float p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Random::get_value()
@@ -1896,6 +1940,7 @@ extern "C"  void Fighter__ctor_m4177725304 (Fighter_t1911001889 * __this, const 
 extern "C"  void Fighter_Start_m295528688 (Fighter_t1911001889 * __this, const RuntimeMethod* method)
 {
 	{
+		__this->set_sp_4((0.0f));
 		return;
 	}
 }
@@ -1924,7 +1969,7 @@ extern "C"  void Fighter_Update_m2300369161 (Fighter_t1911001889 * __this, const
 		int32_t L_0 = Input_get_touchCount_m3403849067(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
-			goto IL_0066;
+			goto IL_010c;
 		}
 	}
 	{
@@ -1948,37 +1993,91 @@ extern "C"  void Fighter_Update_m2300369161 (Fighter_t1911001889 * __this, const
 		int32_t L_10 = Math_Sign_m1545180090(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
 		float L_11 = V_5;
 		V_7 = ((float)il2cpp_codegen_multiply((float)(((float)((float)L_10))), (float)L_11));
-		Transform_t3600365921 * L_12 = Component_get_transform_m3162698980(__this, /*hidden argument*/NULL);
-		float L_13 = V_6;
-		float L_14 = V_7;
-		NullCheck(L_12);
-		Transform_Translate_m3762500149(L_12, L_13, L_14, (0.0f), /*hidden argument*/NULL);
+		float L_12 = V_1;
+		int32_t L_13 = Math_Sign_m1545180090(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		if ((((int32_t)L_13) >= ((int32_t)0)))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		float L_14 = __this->get_sp_4();
+		if ((!(((float)L_14) < ((float)(45.0f)))))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		Transform_t3600365921 * L_15 = Component_get_transform_m3162698980(__this, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Transform_Rotate_m3172098886(L_15, (0.0f), (9.0f), (0.0f), /*hidden argument*/NULL);
+		float L_16 = __this->get_sp_4();
+		__this->set_sp_4(((float)il2cpp_codegen_add((float)L_16, (float)(9.0f))));
+		goto IL_00e7;
 	}
 
-IL_0066:
+IL_009f:
 	{
-		float L_15 = __this->get_timeleft_3();
-		float L_16 = Time_get_deltaTime_m372706562(NULL /*static, unused*/, /*hidden argument*/NULL);
-		__this->set_timeleft_3(((float)il2cpp_codegen_subtract((float)L_15, (float)L_16)));
-		float L_17 = __this->get_timeleft_3();
-		if ((!(((double)(((double)((double)L_17)))) <= ((double)(0.0)))))
+		float L_17 = V_1;
+		int32_t L_18 = Math_Sign_m1545180090(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		if ((((int32_t)L_18) <= ((int32_t)0)))
 		{
-			goto IL_00b4;
+			goto IL_00e7;
+		}
+	}
+	{
+		float L_19 = __this->get_sp_4();
+		if ((!(((float)L_19) > ((float)(-45.0f)))))
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		Transform_t3600365921 * L_20 = Component_get_transform_m3162698980(__this, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Transform_Rotate_m3172098886(L_20, (0.0f), (-9.0f), (0.0f), /*hidden argument*/NULL);
+		float L_21 = __this->get_sp_4();
+		__this->set_sp_4(((float)il2cpp_codegen_subtract((float)L_21, (float)(9.0f))));
+	}
+
+IL_00e7:
+	{
+		float L_22 = __this->get_sp_4();
+		float L_23 = L_22;
+		RuntimeObject * L_24 = Box(Single_t1397266774_il2cpp_TypeInfo_var, &L_23);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t3317548046_il2cpp_TypeInfo_var);
+		Debug_Log_m4051431634(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Transform_t3600365921 * L_25 = Component_get_transform_m3162698980(__this, /*hidden argument*/NULL);
+		float L_26 = V_6;
+		float L_27 = V_7;
+		NullCheck(L_25);
+		Transform_Translate_m2198936091(L_25, L_26, L_27, (0.0f), 0, /*hidden argument*/NULL);
+	}
+
+IL_010c:
+	{
+		float L_28 = __this->get_timeleft_3();
+		float L_29 = Time_get_deltaTime_m372706562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_timeleft_3(((float)il2cpp_codegen_subtract((float)L_28, (float)L_29)));
+		float L_30 = __this->get_timeleft_3();
+		if ((!(((double)(((double)((double)L_30)))) <= ((double)(0.0)))))
+		{
+			goto IL_015a;
 		}
 	}
 	{
 		__this->set_timeleft_3((0.2f));
-		GameObject_t1113636619 * L_18 = __this->get_bulletPrefab_2();
-		Transform_t3600365921 * L_19 = Component_get_transform_m3162698980(__this, /*hidden argument*/NULL);
-		NullCheck(L_19);
-		Vector3_t3722313464  L_20 = Transform_get_position_m36019626(L_19, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_31 = __this->get_bulletPrefab_2();
+		Transform_t3600365921 * L_32 = Component_get_transform_m3162698980(__this, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		Vector3_t3722313464  L_33 = Transform_get_position_m36019626(L_32, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Quaternion_t2301928331_il2cpp_TypeInfo_var);
-		Quaternion_t2301928331  L_21 = Quaternion_get_identity_m3722672781(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Quaternion_t2301928331  L_34 = Quaternion_get_identity_m3722672781(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t631007953_il2cpp_TypeInfo_var);
-		Object_Instantiate_TisGameObject_t1113636619_m3006960551(NULL /*static, unused*/, L_18, L_20, L_21, /*hidden argument*/Object_Instantiate_TisGameObject_t1113636619_m3006960551_RuntimeMethod_var);
+		Object_Instantiate_TisGameObject_t1113636619_m3006960551(NULL /*static, unused*/, L_31, L_33, L_34, /*hidden argument*/Object_Instantiate_TisGameObject_t1113636619_m3006960551_RuntimeMethod_var);
 	}
 
-IL_00b4:
+IL_015a:
 	{
 		return;
 	}

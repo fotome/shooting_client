@@ -7,11 +7,11 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>shooting_cliend</string>
+    <string>Space Try</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIdentifier</key>
-    <string>com.Company.${PRODUCT_NAME}</string>
+    <string>jp.${PRODUCT_NAME}</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -31,8 +31,6 @@
     </dict>
     <key>UIApplicationExitsOnSuspend</key>
     <false />
-    <key>UILaunchStoryboardName~ipad</key>
-    <string>LaunchScreen-iPad</string>
     <key>UILaunchStoryboardName~iphone</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipod</key>

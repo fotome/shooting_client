@@ -7981,17 +7981,21 @@ extern "C" void PropertyNameUtils_PropertyNameFromString_m3719796130 ();
 extern "C" void PropertyNameUtils_PropertyNameFromString_Injected_m1259736140 ();
 extern "C" void Quaternion__ctor_m435141806_AdjustorThunk ();
 extern "C" void Quaternion_Inverse_m1311579081 ();
+extern "C" void Quaternion_Internal_FromEulerRad_m1647759854 ();
 extern "C" void Quaternion_get_identity_m3722672781 ();
+extern "C" void Quaternion_op_Multiply_m1294064023 ();
 extern "C" void Quaternion_op_Multiply_m2607404835 ();
 extern "C" void Quaternion_IsEqualUsingDot_m50046364 ();
 extern "C" void Quaternion_op_Equality_m1582314779 ();
 extern "C" void Quaternion_op_Inequality_m1948345154 ();
 extern "C" void Quaternion_Dot_m1392781996 ();
+extern "C" void Quaternion_Euler_m3049309462 ();
 extern "C" void Quaternion_GetHashCode_m2636680144_AdjustorThunk ();
 extern "C" void Quaternion_Equals_m1863659319_AdjustorThunk ();
 extern "C" void Quaternion_ToString_m2203056442_AdjustorThunk ();
 extern "C" void Quaternion__cctor_m2965965177 ();
 extern "C" void Quaternion_Inverse_Injected_m4070500351 ();
+extern "C" void Quaternion_Internal_FromEulerRad_Injected_m3023241449 ();
 extern "C" void Random_get_value_m3115885645 ();
 extern "C" void RangeAttribute__ctor_m32920615 ();
 extern "C" void RangeInt__ctor_m240963897_AdjustorThunk ();
@@ -8211,7 +8215,9 @@ extern "C" void Transform_INTERNAL_get_localPosition_m1816167803 ();
 extern "C" void Transform_INTERNAL_set_localPosition_m1936358505 ();
 extern "C" void Transform_get_forward_m747522392 ();
 extern "C" void Transform_get_rotation_m3502953881 ();
+extern "C" void Transform_set_rotation_m3524318132 ();
 extern "C" void Transform_INTERNAL_get_rotation_m2413441996 ();
+extern "C" void Transform_INTERNAL_set_rotation_m2375965701 ();
 extern "C" void Transform_get_localRotation_m3487911431 ();
 extern "C" void Transform_set_localRotation_m19445462 ();
 extern "C" void Transform_INTERNAL_get_localRotation_m1111330565 ();
@@ -8231,6 +8237,9 @@ extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m2730237241 ();
 extern "C" void Transform_Translate_m1990195114 ();
 extern "C" void Transform_Translate_m3762500149 ();
 extern "C" void Transform_Translate_m2198936091 ();
+extern "C" void Transform_Rotate_m1886816857 ();
+extern "C" void Transform_Rotate_m3172098886 ();
+extern "C" void Transform_Rotate_m1660364534 ();
 extern "C" void Transform_TransformDirection_m3784028109 ();
 extern "C" void Transform_INTERNAL_CALL_TransformDirection_m4281205641 ();
 extern "C" void Transform_TransformPoint_m226827784 ();
@@ -10623,7 +10632,7 @@ extern "C" void Fighter_Update_m2300369161 ();
 extern "C" void generator__ctor_m4286427422 ();
 extern "C" void generator_Start_m2563546928 ();
 extern "C" void generator_GenRock_m1207304955 ();
-extern const Il2CppMethodPointer g_MethodPointers[10604] = 
+extern const Il2CppMethodPointer g_MethodPointers[10613] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -18587,17 +18596,21 @@ extern const Il2CppMethodPointer g_MethodPointers[10604] =
 	PropertyNameUtils_PropertyNameFromString_Injected_m1259736140,
 	Quaternion__ctor_m435141806_AdjustorThunk,
 	Quaternion_Inverse_m1311579081,
+	Quaternion_Internal_FromEulerRad_m1647759854,
 	Quaternion_get_identity_m3722672781,
+	Quaternion_op_Multiply_m1294064023,
 	Quaternion_op_Multiply_m2607404835,
 	Quaternion_IsEqualUsingDot_m50046364,
 	Quaternion_op_Equality_m1582314779,
 	Quaternion_op_Inequality_m1948345154,
 	Quaternion_Dot_m1392781996,
+	Quaternion_Euler_m3049309462,
 	Quaternion_GetHashCode_m2636680144_AdjustorThunk,
 	Quaternion_Equals_m1863659319_AdjustorThunk,
 	Quaternion_ToString_m2203056442_AdjustorThunk,
 	Quaternion__cctor_m2965965177,
 	Quaternion_Inverse_Injected_m4070500351,
+	Quaternion_Internal_FromEulerRad_Injected_m3023241449,
 	Random_get_value_m3115885645,
 	RangeAttribute__ctor_m32920615,
 	RangeInt__ctor_m240963897_AdjustorThunk,
@@ -18817,7 +18830,9 @@ extern const Il2CppMethodPointer g_MethodPointers[10604] =
 	Transform_INTERNAL_set_localPosition_m1936358505,
 	Transform_get_forward_m747522392,
 	Transform_get_rotation_m3502953881,
+	Transform_set_rotation_m3524318132,
 	Transform_INTERNAL_get_rotation_m2413441996,
+	Transform_INTERNAL_set_rotation_m2375965701,
 	Transform_get_localRotation_m3487911431,
 	Transform_set_localRotation_m19445462,
 	Transform_INTERNAL_get_localRotation_m1111330565,
@@ -18837,6 +18852,9 @@ extern const Il2CppMethodPointer g_MethodPointers[10604] =
 	Transform_Translate_m1990195114,
 	Transform_Translate_m3762500149,
 	Transform_Translate_m2198936091,
+	Transform_Rotate_m1886816857,
+	Transform_Rotate_m3172098886,
+	Transform_Rotate_m1660364534,
 	Transform_TransformDirection_m3784028109,
 	Transform_INTERNAL_CALL_TransformDirection_m4281205641,
 	Transform_TransformPoint_m226827784,

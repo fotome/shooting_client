@@ -3633,6 +3633,8 @@ public:
 	GameObject_t1113636619 * ___bulletPrefab_2;
 	// System.Single Fighter::timeleft
 	float ___timeleft_3;
+	// System.Single Fighter::sp
+	float ___sp_4;
 
 public:
 	inline static int32_t get_offset_of_bulletPrefab_2() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___bulletPrefab_2)); }
@@ -3650,6 +3652,14 @@ public:
 	inline void set_timeleft_3(float value)
 	{
 		___timeleft_3 = value;
+	}
+
+	inline static int32_t get_offset_of_sp_4() { return static_cast<int32_t>(offsetof(Fighter_t1911001889, ___sp_4)); }
+	inline float get_sp_4() const { return ___sp_4; }
+	inline float* get_address_of_sp_4() { return &___sp_4; }
+	inline void set_sp_4(float value)
+	{
+		___sp_4 = value;
 	}
 };
 
@@ -6834,10 +6844,11 @@ extern const int32_t g_FieldOffsetTable1984[6] =
 	enemy01_t1811499032::get_offset_of_name_7(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1985 = { sizeof (Fighter_t1911001889), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1985[2] = 
+extern const int32_t g_FieldOffsetTable1985[3] = 
 {
 	Fighter_t1911001889::get_offset_of_bulletPrefab_2(),
 	Fighter_t1911001889::get_offset_of_timeleft_3(),
+	Fighter_t1911001889::get_offset_of_sp_4(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1986 = { sizeof (generator_t2248347620), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1986[1] = 

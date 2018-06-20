@@ -1174,6 +1174,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Quaternion
 
+		//System.Void UnityEngine.Quaternion::Internal_FromEulerRad_Injected(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Quaternion_Internal_FromEulerRad_Injected();
+		Register_UnityEngine_Quaternion_Internal_FromEulerRad_Injected();
+
 		//System.Void UnityEngine.Quaternion::Inverse_Injected(UnityEngine.Quaternion&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Quaternion_Inverse_Injected();
 		Register_UnityEngine_Quaternion_Inverse_Injected();
@@ -1757,6 +1761,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::INTERNAL_set_position(UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_set_position();
 		Register_UnityEngine_Transform_INTERNAL_set_position();
+
+		//System.Void UnityEngine.Transform::INTERNAL_set_rotation(UnityEngine.Quaternion&)
+		void Register_UnityEngine_Transform_INTERNAL_set_rotation();
+		Register_UnityEngine_Transform_INTERNAL_set_rotation();
 
 		//System.Void UnityEngine.Transform::SetAsFirstSibling()
 		void Register_UnityEngine_Transform_SetAsFirstSibling();
