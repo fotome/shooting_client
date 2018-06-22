@@ -16595,6 +16595,12 @@ extern const RuntimeType Fighter_t1911001889_1_0_0 = { (void*)1985, 0, IL2CPP_TY
 extern const RuntimeType generator_t2248347620_0_0_0 = { (void*)1986, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType generator_t2248347620_1_0_0 = { (void*)1986, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
+extern const RuntimeType moon_t1421176060_0_0_0 = { (void*)1987, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType moon_t1421176060_1_0_0 = { (void*)1987, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType star_t583751228_0_0_0 = { (void*)1988, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType star_t583751228_1_0_0 = { (void*)1988, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
 Il2CppGenericClass IComparer_1_t884274696_GenericClass = { 170, { &GenInst_DefaultComparer_t3277344064_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType IComparer_1_t884274696_0_0_0 = { &IComparer_1_t884274696_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -16630,7 +16636,7 @@ extern const RuntimeType TimeSpanU5BU5D_t4291357516_0_0_0 = { (void*)&TimeSpan_t
 extern const RuntimeType TypeTagU5BU5D_t1563918664_0_0_0 = { (void*)&TypeTag_t3541821701_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t3758023570_0_0_0 = { (void*)&ITrackingHandler_t1244553475_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[8593] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[8597] = 
 {
 	&IEnumerator_1_t3512676632_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -25161,6 +25167,10 @@ extern const RuntimeType* const  g_Il2CppTypeTable[8593] =
 	&Fighter_t1911001889_1_0_0,
 	&generator_t2248347620_0_0_0,
 	&generator_t2248347620_1_0_0,
+	&moon_t1421176060_0_0_0,
+	&moon_t1421176060_1_0_0,
+	&star_t583751228_0_0_0,
+	&star_t583751228_1_0_0,
 	&IEnumerator_1_t3680616661_0_0_0,
 	&IEnumerator_1_t2283114703_0_0_0,
 	&IList_1_t2684745868_0_0_0,

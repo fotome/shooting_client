@@ -10632,7 +10632,14 @@ extern "C" void Fighter_Update_m2300369161 ();
 extern "C" void generator__ctor_m4286427422 ();
 extern "C" void generator_Start_m2563546928 ();
 extern "C" void generator_GenRock_m1207304955 ();
-extern const Il2CppMethodPointer g_MethodPointers[10613] = 
+extern "C" void generator_ranStar_m2230198586 ();
+extern "C" void moon__ctor_m3202017546 ();
+extern "C" void moon_Start_m250677946 ();
+extern "C" void moon_Update_m877130778 ();
+extern "C" void star__ctor_m2814923441 ();
+extern "C" void star_Start_m517482155 ();
+extern "C" void star_Update_m537363275 ();
+extern const Il2CppMethodPointer g_MethodPointers[10620] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -21247,4 +21254,11 @@ extern const Il2CppMethodPointer g_MethodPointers[10613] =
 	generator__ctor_m4286427422,
 	generator_Start_m2563546928,
 	generator_GenRock_m1207304955,
+	generator_ranStar_m2230198586,
+	moon__ctor_m3202017546,
+	moon_Start_m250677946,
+	moon_Update_m877130778,
+	star__ctor_m2814923441,
+	star_Start_m517482155,
+	star_Update_m537363275,
 };
